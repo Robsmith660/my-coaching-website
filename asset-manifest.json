@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-coaching-website/static/css/main.215cc448.css",
+    "main.js": "/my-coaching-website/static/js/main.5ccf6c86.js",
+    "static/js/453.788215d1.chunk.js": "/my-coaching-website/static/js/453.788215d1.chunk.js",
+    "static/media/myvideo.mp4": "/my-coaching-website/static/media/myvideo.c6a5548f4245b35ebe78.mp4",
+    "static/media/conor.jpg": "/my-coaching-website/static/media/conor.5a4f697a073bf14bf16a.jpg",
+    "static/media/placeholder.jpg": "/my-coaching-website/static/media/placeholder.2672865242688bcc8f04.jpg",
+    "static/media/before-after.jpg": "/my-coaching-website/static/media/before-after.823502b731e505a60e81.jpg",
+    "static/media/beforeafter2.jpg": "/my-coaching-website/static/media/beforeafter2.38a4278e6a83f8cf9a43.jpg",
+    "static/media/portrait.jpg": "/my-coaching-website/static/media/portrait.8f8e2616129c5d3c6b72.jpg",
+    "static/media/logo.png": "/my-coaching-website/static/media/logo.5166462aedd2a889831d.png",
+    "static/media/instagram.png": "/my-coaching-website/static/media/instagram.b2d0c2d4355340a503d8.png",
+    "static/media/tiktok.jpg": "/my-coaching-website/static/media/tiktok.fbfaa7adac559b4262f8.jpg",
+    "index.html": "/my-coaching-website/index.html",
+    "main.215cc448.css.map": "/my-coaching-website/static/css/main.215cc448.css.map",
+    "main.5ccf6c86.js.map": "/my-coaching-website/static/js/main.5ccf6c86.js.map",
+    "453.788215d1.chunk.js.map": "/my-coaching-website/static/js/453.788215d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.215cc448.css",
+    "static/js/main.5ccf6c86.js"
+  ]
+}
