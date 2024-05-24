@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+/* App.css or separate CSS file */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Make the hero section full viewport height */
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1; /* Ensure text content appears above the video */
+}
+
+
+/* App.css */
+.about-section {
+  background-color: black;
+  color: white;
+  /* Add other styles as needed */
+}
+
+
+/* App.css or your CSS file */
+
+/* Scoped styles for Testimonials component */
+
+.testimonials {
+  background-color: black;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.testimonials__heading {
+  text-decoration: underline;
+  text-underline-offset: 0.6em;
+  margin-bottom: 5rem;
+}
+
+.testimonials__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .testimonials__container {
+    flex-direction: row;
+  }
+}
+
+.testimonials__images {
+  padding-right: 2rem;
+}
+
+.testimonials__image {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  border: 8px solid white;
+  max-height: 24rem; /* Adjust based on your design needs */
+}
+
+.testimonials__text {
+  padding-left: 2rem;
+}
+
+.testimonials__testimonial {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonials__profile {
+  margin-bottom: 1rem;
+}
+
+.testimonials__profile-img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.testimonials__name {
+  margin-bottom: 0.25rem;
+}
+
+.testimonials__title {
+  color: #b0b0b0; /* Light gray for the title text */
+}
+
+.testimonials__text-content {
+  color: #d1d1d1; /* Slightly darker gray for the testimonial text */
+}
+
+
+/* App.css */
+.services-section {
+  background-color: black;
+  color: white;
+  /* Add other styles as needed */
+}
+
+/* App.css or separate CSS file */
+.image-container {
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.custom-underline {
+  text-decoration: underline;
+  text-underline-offset: 0.6em; /* Adjust the value as needed */
+}
+
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+
+.fade-in {
+  animation: fade-in 2s ease-in forwards;
+}
+
+.fade-out {
+  animation: fade-out 2s ease-out forwards;
+}
+
+.hero-content {
+  opacity: 0; /* Initially hide the content */
+}
+
